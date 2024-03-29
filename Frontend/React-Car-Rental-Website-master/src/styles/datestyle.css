@@ -1,0 +1,71 @@
+/* CSS for form input styling */
+.form__group {
+    margin-bottom: 20px;
+  }
+  
+  /* CSS for date and time picker styling */
+  .react-datepicker-wrapper {
+    width: 100%;
+  }
+  
+  .react-datepicker {
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .react-datepicker__input-container {
+    display: block;
+  }
+  
+  .react-datepicker__input-container input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+  }
+  
+  .react-datepicker__input-container input::placeholder {
+    color: #aaa;
+  }
+  
+  .react-datepicker__time-list-item {
+    padding: 8px;
+  }
+  
+  .react-datepicker__time-list-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .react-datepicker__time-container {
+    border-top: 1px solid #ccc;
+  }
+  
+  .react-datepicker__time-list {
+    padding: 8px 0;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .react-datepicker__time-list::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .react-datepicker__time-list::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Optional: Custom styling for the selected date */
+  .react-datepicker__day--selected {
+    background-color: #007bff !important; /* Change to your preferred color */
+    color: #fff;
+  }
+  
+  /* Optional: Custom styling for the today date */
+  .react-datepicker__day--today {
+    font-weight: bold;
+    color: #007bff; /* Change to your preferred color */
+  }
+  
